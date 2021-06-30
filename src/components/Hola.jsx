@@ -1,10 +1,11 @@
-import React, {} from "react";
+import React, {Fragment} from "react";
 
 function Hola() {
+    let nombre= 'Manuel'
     return (
-        <div>
-            <h2>Primer componete Hola</h2>
-        </div>
+        <Fragment>
+            <h2>Primer componete Hola, {nombre}</h2>
+        </Fragment>
     )
 }
 

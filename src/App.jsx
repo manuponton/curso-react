@@ -7,6 +7,9 @@ function App() {
         <h1>Titulo del primer proyecto</h1>
         <Hola></Hola>
         <Contador></Contador>
+        <Contador></Contador>
+        <Contador></Contador>
+        <Contador></Contador>
     </div>
   );
 }
