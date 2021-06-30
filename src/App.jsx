@@ -1,9 +1,12 @@
 import './App.css';
-
+import Hola from './components/Hola.jsx';
+import Contador from "./components/Contador";
 function App() {
   return (
     <div className="App">
-      <h1>Hola, soy el un nuevo componente</h1>
+        <h1>Titulo del primer proyecto</h1>
+        <Hola></Hola>
+        <Contador></Contador>
     </div>
   );
 }
